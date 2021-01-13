@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    text-align: center;
+    font-family: 'Fira Sans';font-size: 28px;
+    margin-top: auto;
+    
+       
+    
+}
+
+h3{
+    font-family: 'Fira Sans';font-size: 22px;
+}
+
+.head{
+    
+   text-align: center;
+   position: relative;
+   margin-bottom: 0px;
+   font-family: 'Marcellus';font-size: 25px;
+   
+}
+
+.head::after{
+    content: '';
+    height: 1px;
+    width: 30px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    left: 49%;
+
+}
+    
+    
+
+
+.container{
+
+   
+
+    display: flex;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+   padding: 20px 120px 60px 120px;
+  
+   
+
+}
+
+
+.box{
+  
+    margin: auto;
+    margin-top: 80px;
+     max-width: 28%;
+     
+     height: 450px;
+    text-align: center;
+    padding: 10px;
+
+    
+   
+   box-shadow: 0px 15px 20px  #00000014;
+   
+}
+   
+
+ .image{
+    height: 60%;
+    width: 100%;
+   
+     margin-top: -38%;
+    
+}
+
+
+
+.para{
+    margin-top: 30px;
+    padding: 18px;
+    font-family: 'Fira Sans';font-size: 22px;
+}
+
+
+.btn{
+    background-color:  rgb(52, 182, 221);
+    border: none;
+    flex-direction: column;
+    transform: scale(1.5);
+    width: 40px;
+    height: 40px;
+    margin-top: 60px;
+    }
+
+    .btn img{
+        transform: scale(0.4);
+        width: 40px;
+        height: 40px;
+        
+    }
+    .btn:hover{
+        border: 1px solid rgb(40, 137, 232);
+    }
+    .btn img:hover{
+        border: 1px solid rgb(40, 137, 232);
+        
+    }
+.section{
+    display: flex;
+    flex-direction: column;
+  
+    
+
+}
+    .btnn{
+        
+    border: none;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Marcellus';font-size: 24px;
+    margin: auto;
+    background-color:  rgb(52, 182, 221);
+    padding: 3px;
+    
+    
+     }
+     
+     .btnn p{
+         color: white;
+         padding-top: 5px;
+
+     }
+
+     .btnn a{
+         transform: scale(0.7);
+         margin-left: 30px;
+         
+         
+     }
+     .btnn a:hover{
+        transform: scale(0.7);
+        border: 1px solid rgb(40, 137, 232);
+        
+        
+    }
+
+    
+
+
+
+@media only screen and (max-width:1350px){
+    .heading{
+        text-align: center;}
+
+    .container{
+
+        flex-direction: column;
+        margin: auto;
+        margin-top: 20px;
+        padding: 10px;
+        
+    }
+    .box{
+        
+        margin: auto;
+        max-width: 100%;
+         width: 300px;
+         height: auto;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 20px;
+       
+        box-shadow: 2px 2px 15px  rgb(161, 239, 245);
+        box-shadow: 2px 2px 15px rgb(158, 158, 153);
+    }
+    .image{
+        height: 45%;
+        width: 100%;
+        margin-top: -30%;
+        position: relative;
+        margin-left: 10px;
+        padding: 5px;
+        
+    }
+    
+    .para{
+        margin-top: 10px;
+        padding: 15px;
+    }
+
+    .btn{
+        background-color: rgb(84, 165, 212);
+        border: none;
+       
+        
+    }
+
+    .Layer{
+        width: 70%;
+        
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+      
+        
+        
+        
+    }
+        .btnn{
+            
+        border: none;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Marcellus';font-size: 24px;
+        margin: auto;
+        background-color:  rgb(52, 182, 221);
+        padding: 3px;
+        
+        
+         }
+         
+         .btnn p{
+             color: white;
+             padding-top: 5px;
+    
+         }
+    
+         .btnn a{
+             transform: scale(0.7);
+             margin-left: 30px;
+             
+             
+         }
+         .btnn a:hover{
+            transform: scale(0.7);
+            border: 1px solid rgb(40, 137, 232);
+            
+            
+        }
+    
+   
+  
+}
