@@ -1,0 +1,56 @@
+.c-heading{
+    text-align: center;
+    font-family: 'Fira Sans';font-size: 28px;
+    margin-top: auto;
+}
+
+.c-head{
+    
+    text-align: center;
+    position: relative;
+    margin-bottom: 0px;
+    font-family: 'Marcellus';font-size: 25px;
+}
+
+.c-head::after{
+    content: '';
+    height: 1px;
+    width: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 49%;
+    background-color: black;
+    
+}
+.card{
+    margin: auto;
+    text-align: center;
+    border: none;
+    box-shadow: 0px 15px 20px  #00000014;
+   
+}
+.card-img-top{
+    margin-top: -40%;
+    padding: 30px;
+}
+.card-title{
+    text-align: center;
+    font-family: 'Fira Sans';font-size: 24px;
+}
+.card-text{
+text-align: center;
+font-family: 'Marcellus';font-size: 18px;
+padding: 5px;
+}
+
+.btn-primary{
+    margin-top: 20px;
+    margin-bottom: -40px;
+}
+@media only screen and (max-width:1350px){ 
+    
+    .col-sm-4{
+    margin-bottom: 130px;
+   
+    }
+}
