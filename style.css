@@ -1,0 +1,161 @@
+.c-heading{
+    text-align: center;
+    font-family: 'Fira Sans';font-size: 40px;
+    margin-top: auto;
+}
+.c-heading h1{
+    font-family: 'Fira Sans';font-size: 50px;
+}
+
+
+.c-head{
+    
+    text-align: center;
+    position: relative;
+    margin-bottom: 0px;
+    font-family: 'Marcellus';font-size: 25px;
+}
+
+.c-head::after{
+    content: '';
+    height: 1px;
+    width: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 49%;
+    background-color: black;
+    
+}
+.card{
+    margin: auto;
+    text-align: center;
+    border: none;
+    box-shadow: 0px 15px 20px  #00000014;
+   
+}
+.card-img-top{
+    margin-top: -40%;
+    padding: 30px;
+}
+.card-title{
+    text-align: center;
+    font-family: 'Fira Sans';font-size: 24px;
+}
+.card-text{
+text-align: center;
+font-family: 'Marcellus';font-size: 18px;
+padding: 5px;
+}
+
+.btn-primary{
+    margin-top: 20px;
+    margin-bottom: -40px;
+    border-radius: 0;
+    background-color: rgb(52,182,221);
+    border: none;
+    width :50px;
+}
+
+.btn-primary:hover{
+    background-color: rgb(52,182,221);
+    color: rgb(52,182,221);
+    border: none;
+}
+
+.btn-primary:active{
+    background-color: rgb(52,182,221);
+    border-color:none;
+}
+
+.btn-primary:focus{
+border-color: none;
+    background-color: rgb(52,182,221);
+}
+
+.c-section{
+    display: flex;
+    flex-direction: column;
+
+    padding: 40px;
+  }
+    .c-btnn{
+       
+    border: none;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Marcellus';font-size: 20px;
+    margin: auto;
+   background-color:  rgb(52, 182, 221);
+    padding: 6px;
+   
+    
+     }
+     
+     .c-btnn p{
+         color: white;
+         margin: 10px;
+
+     }
+
+     .c-btnn a{
+         
+         
+         transform: scale(0.7);
+         
+         
+     }
+     .c-btnn a:hover{
+        
+        border: 1px solid rgb(40, 137, 232);
+        
+        
+    }
+
+
+@media only screen and (max-width:1350px){ 
+    
+    .col-sm-4{
+    margin-bottom: 140px;
+   
+    }
+    .c-section{
+        display: flex;
+        flex-direction: column;
+    
+        padding: 5px;
+        margin-top: -100px;
+      }
+        .c-btnn{
+           
+        border: none;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Marcellus';font-size: 20px;
+        margin: auto;
+       background-color:  rgb(52, 182, 221);
+        padding: 6px;
+       
+        
+         }
+         
+         .c-btnn p{
+             color: white;
+             margin: 10px;
+    
+         }
+    
+         .c-btnn a{
+             
+             
+             transform: scale(0.7);
+             
+             
+         }
+         .c-btnn a:hover{
+            
+            border: 1px solid rgb(40, 137, 232);
+            
+            
+        }
+    
+}
